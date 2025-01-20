@@ -57,10 +57,9 @@ class Biblioteca {
 
 $libro = new Biblioteca();
 
-$libro -> agregarLibro(new Libro("El Quijote", "Miguel de Cervantes", "Novela", true));
-$libro -> agregarLibro(new Libro("El hobbit", "J.R.R. Tolkien", "Fantasía", true));
-$libro -> agregarLibro(new Libro("Cien años de soledad", "Gabriel García Márquez", "Novela", true));
-$libro -> agregarLibro(new Libro("La Odisea", "Homero", "Epopeya", true));
-$libro -> agregarLibro(new Libro("El retrato de Dorian Gray", "Oscar Wilde", "Novela", true));
+$biblioteca->agregarLibro("El Quijote", "Miguel de Cervantes", "Novela");
+$biblioteca->agregarLibro("Cien años de soledad", "Gabriel García Márquez", "Realismo mágico");
+$biblioteca->agregarLibro("1984", "George Orwell", "Ciencia ficción");
+$biblioteca->agregarLibro("La Odisea", "Homero", "Epopeya");
 
 ?>
