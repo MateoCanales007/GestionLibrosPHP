@@ -53,5 +53,11 @@ class Biblioteca {
 
 }
 
+// LIBROS de ejemplo
+$biblioteca -> agregarLibro(new Libro("El Quijote", "Miguel de Cervantes", "Novela", true));
+$biblioteca -> agregarLibro(new Libro("El hobbit", "J.R.R. Tolkien", "Fantasía", true));
+$biblioteca -> agregarLibro(new Libro("Cien años de soledad", "Gabriel García Márquez", "Novela", true));
+$biblioteca -> agregarLibro(new Libro("La Odisea", "Homero", "Epopeya", true));
+$biblioteca -> agregarLibro(new Libro("El retrato de Dorian Gray", "Oscar Wilde", "Novela", true));
 
 ?>
