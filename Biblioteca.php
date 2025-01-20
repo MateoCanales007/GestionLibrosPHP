@@ -55,7 +55,7 @@ class Biblioteca {
 
 // LIBROS de ejemplo
 
-$libro = new Biblioteca();
+$biblioteca = new Biblioteca();
 
 $biblioteca->agregarLibro("El Quijote", "Miguel de Cervantes", "Novela");
 $biblioteca->agregarLibro("Cien años de soledad", "Gabriel García Márquez", "Realismo mágico");
